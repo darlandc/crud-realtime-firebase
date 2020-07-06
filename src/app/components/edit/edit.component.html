@@ -1,0 +1,9 @@
+<div class="container">
+<form [formGroup]="form" (ngSubmit)="edit">
+  <label for="name">Name</label>
+  <input type="text" formControlName="name">
+  <label for="number">WhatsApp Number</label>
+  <input type="number" formControlName="number">
+  <button type="submit">Submit</button>
+</form>
+</div>
